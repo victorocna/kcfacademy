@@ -1,7 +1,7 @@
 {
-  "name": "ichessorg",
+  "name": "kcfacademy",
   "version": "1.6.2",
-  "description": "eChess implementation for ichessorg",
+  "description": "eChess implementation for kcfacademy",
   "private": true,
   "scripts": {
     "dev": "next -p 8080",

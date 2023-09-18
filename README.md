@@ -1,6 +1,6 @@
-# Ichessorg
+# kcfacademy
 
-eChess implementation for ichessorg
+eChess implementation for kcfacademy
 
 ## Quick start
 
