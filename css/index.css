@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import 'animate.css';
+@import 'bogdan.css';
+@import 'custom.css';
+@import 'datepicker.css';
+@import 'hover.css';
+@import 'ichessclub.css';
+@import 'layout.css';
+@import 'live.css';
+@import 'loading.css';
+@import 'markdown.css';
+@import 'menu.css';
+@import 'toast.css';
+@import 'victor.css';
+@import '~react-image-lightbox/style.css';

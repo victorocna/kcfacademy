@@ -1,0 +1,10 @@
+{
+  "name": "ichessclub",
+  "short_name": "ichessclub",
+  "description": "ichessclub | Șah online",
+  "icons": [],
+  "theme_color": "#003296",
+  "background_color": "#ffffff",
+  "start_url": "https://app.ichessclub.ro",
+  "display": "standalone"
+}

@@ -1,0 +1,12 @@
+/**
+ * Customize app logo
+ */
+.logo-app {
+  @apply w-24 mr-2;
+}
+
+@screen md {
+  .logo-app {
+    @apply w-32;
+  }
+}
