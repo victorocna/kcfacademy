@@ -1,9 +1,8 @@
-import { TopHeader, MainHeader, Footer, Forgot, Slider } from '../components';
+import { MainHeader, Footer, Forgot, Slider } from '../components';
 
 const Page = () => (
   <>
     <header>
-      <TopHeader />
       <MainHeader />
     </header>
     <main className="cover bg-gray-200 md:bg-gray-600 flex flex-col items-center justify-center pt-4 flex-1">
