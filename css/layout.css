@@ -26,7 +26,7 @@
 .cover,
 .cover-error {
   background: no-repeat center center / cover fixed;
-  background-image: url('/images/ichessclub-cover.jpg');
+  background-image: url('https://images.pexels.com/photos/6114992/pexels-photo-6114992.jpeg?w=1260');
   background-color: #777;
   background-blend-mode: multiply;
 }

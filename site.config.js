@@ -1,14 +1,11 @@
 module.exports = {
   language: 'en',
-  sitename: 'ichessclub | Online chess club',
-  title: 'Online chess',
-  description: `Choose International Chess Club
-    We offer a wide range of chess courses and activities for all ages
-  `,
-  baseurl: 'https://app.ichessclub.ro',
-  logo: '/images/ichessclub-logo-retina.png',
-  image: 'https://ichessclub.ro/wp-content/uploads/2020/05/ichessclub-logo.png',
-  googleAnalytics: 'UA-179308171-1',
+  sitename: 'KCF Academy | Kasparov Chess Foundation Academy',
+  title: 'Kasparov Chess Foundation',
+  description: `Kasparov Chess Foundation Academy`,
+  baseurl: 'https://app.kcfacademy.org',
+  logo: '/images/kcf-logo.png',
+  image: 'https://app.kcfacademy.org/images/kcf-logo.png',
   googleFonts: 'https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap',
   fontAwesome: 'https://use.fontawesome.com/releases/v5.6.3/css/all.css',
   bootstrap: 'https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css',

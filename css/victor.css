@@ -166,6 +166,10 @@ button:disabled {
   grid-row: 2;
 }
 
+.max-md {
+  max-width: 32rem;
+  width: 32rem;
+}
 .max-w-xxs {
   max-width: 11rem;
 }

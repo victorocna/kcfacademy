@@ -1,6 +1,7 @@
 # User specific
 NOTES.txt
 .env.production
+.DS_Store
 
 # Logs
 logs
