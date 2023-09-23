@@ -25,10 +25,7 @@
  */
 .cover,
 .cover-error {
-  background: no-repeat center center / cover fixed;
-  background-image: url('https://images.pexels.com/photos/6114992/pexels-photo-6114992.jpeg?w=1260');
-  background-color: #777;
-  background-blend-mode: multiply;
+  background-image: url('/images/chess-board.webp');
 }
 .cover-error {
   background-image: url('/images/spongebob.jpg');
@@ -39,27 +36,4 @@
   max-width: 75rem;
   width: 100%;
   margin: 0 auto;
-}
-
-/**
-* Don't load bg image if on mobile (wouldn't be visible anyway because of content)
-*/
-@media (max-width: 576px) {
-  .cover,
-  .cover-errro {
-    background-image: none;
-  }
-}
-
-@media (min-aspect-ratio: 2/1) {
-  .max {
-    max-width: 64rem;
-  }
-}
-
-.flex-item {
-  @apply mr-2 my-1;
-}
-.flex-item-lg {
-  @apply mr-2 my-2;
 }
