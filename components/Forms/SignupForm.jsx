@@ -20,35 +20,27 @@ const SignupForm = () => {
         <Fieldset name="name" label={<Translate>Name</Translate>}>
           <Field name="name" type="text" as={Input} />
         </Fieldset>
-        <Fieldset
-          name="email"
-          label={<Translate>Email address</Translate>}
-          help={<Translate>You will use this email to login</Translate>}
-        >
+        <Fieldset name="email" label={<Translate>Email address</Translate>}>
           <Field name="email" type="email" as={Input} />
         </Fieldset>
         <Fieldset
           name="password"
           label={<Translate>Password</Translate>}
           help={
-            <div className="text-gray-600">
+            <span className="text-sm text-gray-600">
               <Translate>Choose a safe password with at least 8 characters</Translate>
-            </div>
+            </span>
           }
         >
           <Field name="password" as={Password} />
         </Fieldset>
         <Fieldset
           name="phone"
-          label={
-            <div className="text-gray-800">
-              <Translate>Phone</Translate>
-            </div>
-          }
+          label={<Translate>Phone</Translate>}
           help={
-            <div className="text-gray-600">
+            <span className="text-sm text-gray-600">
               <Translate>Optional info</Translate>
-            </div>
+            </span>
           }
         >
           <Field name="phone" type="tel" as={Input} />
