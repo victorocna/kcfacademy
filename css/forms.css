@@ -66,27 +66,27 @@ input::-webkit-inner-spin-button {
 }
 
 .input {
-  @apply py-2 px-3 border border-neutral-300 bg-white/5 shadow-sm rounded-md outline-none focus:ring-1 focus:ring-gray-400 !important;
+  @apply py-2 px-3 border border-gray-400 shadow-sm rounded-md outline-none !important;
 }
 
 .textarea {
-  @apply py-2 px-3 border border-neutral-300 bg-white/5 shadow-sm rounded-md outline-none focus:ring-1 focus:ring-gray-400 !important;
+  @apply py-2 px-3 border border-gray-400 shadow-sm rounded-md outline-none !important;
 }
 
 .select {
-  @apply appearance-none py-2 px-3 border border-neutral-300 shadow-sm rounded-md outline-none focus:ring-1 focus:ring-gray-400 !important;
+  @apply appearance-none py-2 px-3 border border-gray-400 shadow-sm rounded-md outline-none !important;
 }
 
 .backoffice-input {
-  @apply py-2 px-3 border border-neutral-300 bg-white/5 shadow-sm rounded-md outline-none focus:ring-1 focus:ring-gray-400 !important;
+  @apply py-2 px-3 border border-gray-400 shadow-sm rounded-md outline-none !important;
 }
 
 .backoffice-textarea {
-  @apply py-2 px-3 border border-neutral-300 bg-white/5 shadow-sm rounded-md outline-none focus:ring-1 focus:ring-gray-400 !important;
+  @apply py-2 px-3 border border-gray-400 shadow-sm rounded-md outline-none !important;
 }
 
 .backoffice-select {
-  @apply appearance-none py-2 px-3 border border-neutral-300 shadow-sm rounded-md outline-none focus:ring-1 focus:ring-gray-400 !important;
+  @apply appearance-none py-2 px-3 border border-gray-400 shadow-sm rounded-md outline-none !important;
 }
 
 .select {
@@ -97,31 +97,19 @@ input::-webkit-inner-spin-button {
 }
 
 .dropdown {
-  @apply border border-neutral-300 shadow-sm rounded-md flex justify-between py-2 px-3 w-full bg-white !important;
-}
-
-.dropdown:focus-within {
-  @apply ring-1 ring-blue-300 focus:outline-none !important;
+  @apply border border-gray-400 shadow-sm rounded-md flex justify-between py-2 px-3 w-full bg-white !important;
 }
 
 .dropdown-list {
-  @apply z-10 bg-white shadow-sm w-full max-h-80 outline-none absolute top-full border border-t-0 rounded-b-md border-neutral-300 !important;
+  @apply z-10 bg-white shadow-sm w-full outline-none absolute border border-t-0 rounded-b-md border-gray-400 !important;
 }
 
 input[type='password'] {
   letter-spacing: 0.125em;
 }
 
-.checkbox {
-  @apply w-5 h-5 cursor-pointer accent-primary !important;
-}
-
-.radio {
-  @apply w-5 h-5 p-2 cursor-pointer accent-primary !important;
-}
-
 .plusminus {
-  @apply inline-flex bg-white text-center shadow-sm border border-neutral-300 divide-x divide-neutral-300 rounded-md !important;
+  @apply inline-flex bg-white text-center shadow-sm border border-gray-400 rounded-md !important;
 }
 
 .required::after {
