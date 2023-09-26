@@ -1,7 +1,7 @@
 module.exports = {
   language: 'en',
   sitename: 'KCF Academy | Kasparov Chess Foundation Academy',
-  title: 'Kasparov Chess Foundation',
+  title: 'Kasparov Chess Foundation Academy',
   description: `Kasparov Chess Foundation Academy`,
   baseurl: 'https://app.kcfacademy.org',
   logo: '/images/kcf-logo.png',
