@@ -9,6 +9,7 @@ const Page = () => (
         <div className="flex gap-4 items-center p-10">
           <img className="w-16" src={logo} alt={title} />
           <h1 className="font-display text-lg md:text-2xl font-semibold text-white">{title}</h1>
+          <img className="w-16" src="/images/kcf-logo-alt.png" alt={title} />
         </div>
         <div className="flex absolute bottom-0 flex-col gap-3 p-10">
           <p className="text-gray-200">
