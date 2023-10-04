@@ -5,6 +5,7 @@ const MainHeader = () => (
     <div className="max flex flex-wrap items-center">
       <img className="logo-app" src={logo} alt={title} />
       <h1 className="font-display text-lg md:text-xl font-semibold text-bluemarin">{title}</h1>
+      <img className="w-16" src="/images/kcf-logo-alt.png" alt={title} />
     </div>
   </div>
 );
