@@ -1,6 +1,7 @@
-import { Layout, withAuth, withRouter, Tag } from 'echess/components';
+import { Tag, withAuth, withRouter } from 'echess/components';
 import { DiagramsWrapper } from 'echess/components/Lists';
 import { objectId } from 'echess/functions';
+import { Layout } from '../../../components';
 
 const Page = ({ slug }) => (
   <Layout>

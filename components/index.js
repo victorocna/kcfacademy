@@ -1,6 +1,8 @@
 import Confirm from './Confirm';
 import Footer from './Footer';
 import Forgot from './Forgot';
+import Header from './Header';
+import Layout from './Layout';
 import Lightbox from './Lightbox';
 import Login from './Login';
 import MainHeader from './MainHeader';
@@ -15,6 +17,8 @@ export {
   Confirm,
   Footer,
   Forgot,
+  Header,
+  Layout,
   Lightbox,
   Login,
   MainHeader,

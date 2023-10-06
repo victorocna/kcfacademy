@@ -1,9 +1,10 @@
 import { useState } from 'react';
 import store from 'store';
 import Router from 'next/router';
-import { Layout, withAuth, Loading, Tooltip } from 'echess/components';
+import { withAuth, Loading, Tooltip } from 'echess/components';
 import { PgnUpload, AddNew } from 'echess/components/Diagrams';
 import { DiagramsWrapper } from 'echess/components/Lists';
+import { Layout } from '../../../components';
 
 const Page = () => {
   const [isLoading, setLoading] = useState(false);

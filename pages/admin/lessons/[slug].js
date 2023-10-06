@@ -1,6 +1,7 @@
-import { Layout, withAuth, withRouter, withQuery } from 'echess/components';
+import { withAuth, withQuery, withRouter } from 'echess/components';
 import { Lesson } from 'echess/components/Admin';
 import { fetchLesson } from 'echess/controllers/lesson';
+import { Layout } from '../../../components';
 
 const Page = ({ slug }) => {
   const LessonWithQuery = withQuery(Lesson, slug, fetchLesson);

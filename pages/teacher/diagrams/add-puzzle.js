@@ -1,8 +1,9 @@
 import { Formik } from 'formik';
-import { Layout, Back, withAuth } from 'echess/components';
+import { Back, withAuth } from 'echess/components';
 import { AddPuzzle } from 'echess/components/Formik';
 import { puzzle } from 'echess/models';
 import { create } from 'echess/controllers/diagram';
+import { Layout } from '../../../components';
 
 const Page = () => (
   <Layout role="teacher">

@@ -1,7 +1,8 @@
-import { Layout, Link, withAuth } from 'echess/components';
+import { Link, withAuth } from 'echess/components';
 import { LessonList } from 'echess/components/Admin';
 import { SearchFilter } from 'echess/components/Filter';
 import { useState } from 'react';
+import { Layout } from '../../../components';
 
 const Page = () => {
   const [options, setOptions] = useState({});

@@ -1,5 +1,6 @@
-import { Layout, withAuth, withRouter, Group } from 'echess/components';
+import { withAuth, withRouter, Group } from 'echess/components';
 import { GroupForm } from 'echess/components/Admin';
+import { Layout } from '../../../components';
 
 const Page = ({ id }) => (
   <Layout>

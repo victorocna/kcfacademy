@@ -1,7 +1,8 @@
 import { useState } from 'react';
-import { Layout, withAuth } from 'echess/components';
+import { withAuth } from 'echess/components';
 import { QuizFilters, QuizList } from 'echess/components/Member';
 import { Tags, Sort } from 'echess/components/Filter';
+import { Layout } from '../../../components';
 
 const Page = () => {
   const [options, setOptions] = useState({});

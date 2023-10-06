@@ -1,5 +1,6 @@
-import { Layout, Link, withAuth } from 'echess/components';
+import { Link, withAuth } from 'echess/components';
 import { Groups } from 'echess/components/Lists';
+import { Layout } from '../../../components';
 
 const Page = () => (
   <Layout>

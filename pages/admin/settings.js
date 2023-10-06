@@ -1,4 +1,5 @@
-import { Layout, Profile, withAuth } from 'echess/components';
+import { Profile, withAuth } from 'echess/components';
+import { Layout } from '../../components';
 
 const Page = () => (
   <Layout>

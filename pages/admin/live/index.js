@@ -1,5 +1,6 @@
-import { Layout, withAuth } from 'echess/components';
+import { withAuth } from 'echess/components';
 import { LiveLessons } from 'echess/components/Lists';
+import { Layout } from '../../../components';
 
 const Page = () => (
   <Layout>

@@ -1,5 +1,6 @@
-import { Link, Layout, withAuth } from 'echess/components';
+import { Link, withAuth } from 'echess/components';
 import { QuizList } from 'echess/components/Admin';
+import { Layout } from '../../../components';
 
 const Page = () => (
   <Layout role="teacher">

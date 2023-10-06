@@ -1,8 +1,9 @@
 import { Formik } from 'formik';
-import { Layout, withAuth, withRouter, Back, QueryStatus } from 'echess/components';
+import { withAuth, withRouter, Back, QueryStatus } from 'echess/components';
 import { EditMember } from 'echess/components/Formik';
 import { updateMember } from 'echess/models/member';
 import { fetchMember, update } from 'echess/controllers/member';
+import { Layout } from '../../../../components';
 
 const Page = ({ id }) => {
   const { data, ...query } = fetchMember(id);

@@ -1,7 +1,8 @@
 import { useEffect } from 'react';
-import { Layout, withAuth, withRouter, withQuery } from 'echess/components';
+import { withAuth, withRouter, withQuery } from 'echess/components';
 import { Lesson } from 'echess/components/Member';
 import { fetchLesson, markAsViewed } from 'echess/controllers/lesson';
+import { Layout } from '../../../components';
 
 const Page = ({ slug }) => {
   const LessonWithQuery = withQuery(Lesson, slug, fetchLesson);

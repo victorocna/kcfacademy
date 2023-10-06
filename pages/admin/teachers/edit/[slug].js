@@ -1,8 +1,9 @@
 import { Formik } from 'formik';
-import { Layout, withAuth, withRouter, Back, QueryStatus } from 'echess/components';
+import { withAuth, withRouter, Back, QueryStatus } from 'echess/components';
 import { EditTeacher } from 'echess/components/Formik';
 import { updateTeacher } from 'echess/models/teacher';
 import { fetchTeacher, update } from 'echess/controllers/teacher';
+import { Layout } from '../../../../components';
 
 const Page = ({ id }) => {
   const { data, ...query } = fetchTeacher(id);

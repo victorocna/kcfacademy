@@ -1,5 +1,6 @@
-import { Layout, withAuth, withRouter, Back } from 'echess/components';
+import { withAuth, withRouter, Back } from 'echess/components';
 import { Diagram } from 'echess/components/Query';
+import { Layout } from '../../../components';
 
 const Page = ({ id }) => (
   <Layout role="teacher">

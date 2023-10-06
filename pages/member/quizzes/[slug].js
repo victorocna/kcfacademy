@@ -1,6 +1,7 @@
-import { Layout, withAuth, withRouter, withQuery } from 'echess/components';
+import { withAuth, withRouter, withQuery } from 'echess/components';
 import { Quiz } from 'echess/components/Member';
 import { fetch } from 'echess/functions';
+import { Layout } from '../../../components';
 
 const Page = ({ id }) => {
   const QuizWithQuery = withQuery(Quiz, `quizzes/${id}`, fetch);

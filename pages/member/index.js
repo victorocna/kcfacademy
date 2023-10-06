@@ -1,6 +1,7 @@
-import { Layout, withAuth, withQuery } from 'echess/components';
+import { withAuth, withQuery } from 'echess/components';
 import { QuickStats } from 'echess/components/Member';
 import { fetchStats } from 'echess/controllers/my';
+import { Layout } from '../../components';
 
 const Page = () => {
   const QuickStatsWithQuery = withQuery(QuickStats, `my/stats`, fetchStats);

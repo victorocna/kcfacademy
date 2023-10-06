@@ -1,5 +1,6 @@
-import { Layout, Profile, withAuth } from 'echess/components';
+import { Profile, withAuth } from 'echess/components';
 import { Account } from 'echess/components/Member';
+import { Layout } from '../../components';
 
 const Page = () => (
   <Layout role="member">

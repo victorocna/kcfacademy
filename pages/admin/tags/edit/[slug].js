@@ -1,5 +1,6 @@
-import { Layout, withAuth, withRouter, Back } from 'echess/components';
+import { Back, withAuth, withRouter } from 'echess/components';
 import { TagForm } from 'echess/components/Admin';
+import { Layout } from '../../../../components';
 
 const Page = ({ slug }) => (
   <Layout>

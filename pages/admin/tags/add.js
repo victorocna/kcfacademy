@@ -1,8 +1,9 @@
 import { Formik } from 'formik';
-import { Layout, withAuth, Back } from 'echess/components';
+import { withAuth, Back } from 'echess/components';
 import { AddTag } from 'echess/components/Formik';
 import { tag } from 'echess/models';
 import { create } from 'echess/controllers/tag';
+import { Layout } from '../../../components';
 
 const Page = () => (
   <Layout>

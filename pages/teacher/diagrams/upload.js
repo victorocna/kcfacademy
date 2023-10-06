@@ -1,5 +1,6 @@
-import { Layout, Back, withAuth } from 'echess/components';
+import { Back, withAuth } from 'echess/components';
 import { UploadBox } from 'echess/components/Diagrams';
+import { Layout } from '../../../components';
 
 const Page = () => (
   <Layout role="teacher">
