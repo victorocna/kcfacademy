@@ -50,9 +50,6 @@ const Page = () => (
           </Link>
         </div>
       </div>
-      <p className="absolute bottom-0 p-6 sm:p-10 text-xs text-gray-700">
-        Copyright © 2023 - International Chess Club
-      </p>
     </div>
   </main>
 );
