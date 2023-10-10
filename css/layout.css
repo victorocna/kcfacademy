@@ -37,3 +37,15 @@
   width: 100%;
   margin: 0 auto;
 }
+@media (min-aspect-ratio: 2/1) {
+  .max {
+    max-width: 64rem;
+  }
+}
+
+.flex-item {
+  @apply mr-2 my-1;
+}
+.flex-item-lg {
+  @apply mr-2 my-2;
+}
