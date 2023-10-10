@@ -10,7 +10,7 @@ const Page = () => (
           <img className="w-16" src={logo} alt={title} />
           <h1 className="font-display text-lg md:text-2xl font-semibold text-white">{title}</h1>
         </div>
-        <div className="flex absolute bottom-0 flex-col gap-3 p-10">
+        <div className="flex flex-col gap-3 p-10">
           <p className="text-gray-200">
             &rdquo;In chess, we have styles - like in any other field. There are also fashions in
             the kinds of systems that people play. So I'm trying to know my opponent as much as

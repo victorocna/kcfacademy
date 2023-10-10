@@ -10,7 +10,7 @@ const Page = () => (
           <img className="w-16" src={logo} alt={title} />
           <h1 className="font-display text-lg md:text-2xl font-semibold text-white">{title}</h1>
         </div>
-        <div className="flex absolute bottom-0 flex-col gap-3 p-10">
+        <div className="flex flex-col gap-3 p-10">
           <p className="text-gray-200">
             &rdquo;I want to serve chess through games, books that are works of art. I would like to
             bring the game closer to many people all over the world.&rdquo;
