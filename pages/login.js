@@ -45,7 +45,7 @@ const Page = () => (
       <div className="flex text-sm gap-1">
         <p>No account yet?</p>
         <Link href="/signup">
-          <a className="text-indigo-700 cursor-pointer font-semibold no-underline">Signup today</a>
+          <a className="text-indigo-700 cursor-pointer font-semibold">Sign up</a>
         </Link>
       </div>
     </div>
