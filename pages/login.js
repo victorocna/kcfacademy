@@ -11,7 +11,7 @@ const Page = () => (
           <h1 className="font-display text-lg md:text-2xl font-semibold text-white">{title}</h1>
           <img className="w-16" src="/images/kcf-logo-alt.png" alt={title} />
         </div>
-        <div className="flex absolute bottom-0 flex-col gap-3 p-10">
+        <div className="flex flex-col gap-3 p-10">
           <p className="text-gray-200">
             &rdquo;Chess helps you to concentrate, improve your logic. It teaches you to play by the
             rules and take responsibility for your actions, how to problem solve in an uncertain
