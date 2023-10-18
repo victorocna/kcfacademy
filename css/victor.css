@@ -122,6 +122,13 @@ button:disabled {
   @apply bg-gray-100;
 }
 
+.bg-stripe-section:nth-child(odd) {
+  @apply bg-white border-t border-b;
+}
+.bg-stripe-section:nth-child(even) {
+  @apply bg-gray-100;
+}
+
 /* font awesome icons with css pseudo elements */
 .member {
   position: relative;
