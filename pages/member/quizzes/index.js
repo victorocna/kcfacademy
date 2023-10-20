@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { withAuth } from 'echess/components';
 import { QuizFilters, QuizList } from 'echess/components/Member';
-import { Tags, Sort } from 'echess/components/Filter';
+import { Tags, Sort, SearchFilter } from 'echess/components/Filter';
 import { Layout } from '../../../components';
 
 const Page = () => {
@@ -14,6 +14,9 @@ const Page = () => {
           <h2 className="font-bold text-xl w-full md:w-auto md:flex-1 mb-2">My quizzes</h2>
           <Tags setOptions={setOptions} />
           <Sort setOptions={setOptions} />
+        </div>
+        <div className="my-4">
+          <SearchFilter placeholder="Search by title" setOptions={setOptions} />
         </div>
         <QuizFilters setOptions={setOptions} />
         <hr className="my-4" />
