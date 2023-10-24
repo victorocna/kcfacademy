@@ -196,3 +196,14 @@ button:disabled {
 .chess-move:hover {
   @apply bg-yellow-300;
 }
+
+#puzzle-solution {
+  width: 100% !important;
+}
+#puzzle-solution .grid {
+  grid-template-columns: repeat(1, minmax(0, 1fr)) !important;
+  gap: 0 !important;
+}
+#puzzle-solution .sticky {
+  padding: 0 !important;
+}
