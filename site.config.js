@@ -45,4 +45,5 @@ module.exports = {
     ENGINE_FILEPATH: '/chess/engine/stockfish.asm.js',
   },
   groups: true,
+  usernames: true,
 };
