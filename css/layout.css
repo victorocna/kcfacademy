@@ -28,9 +28,9 @@
   background-image: url('/images/chess-board.webp');
 }
 .cover-error {
+  background: no-repeat center center / cover fixed;
   background-image: url('/images/spongebob.jpg');
   background-color: #aaa;
-  background: no-repeat center center / cover fixed;
   background-blend-mode: multiply;
 }
 
