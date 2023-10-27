@@ -1,6 +1,6 @@
 {
   "name": "kcfacademy",
-  "version": "1.8.0",
+  "version": "1.8.1",
   "description": "eChess implementation for kcfacademy",
   "private": true,
   "scripts": {
@@ -13,11 +13,11 @@
   "author": "victorocna <victor@chesscoders.com>",
   "license": "MIT",
   "dependencies": {
-    "@chesscoders/echess": "^2.9.0",
+    "@chesscoders/echess": "^2.9.1",
     "@tailwindcss/custom-forms": "^0.2.1",
     "autoprefixer": "^9.8.6",
     "dotenv": "^8.2.0",
-    "echess": "npm:@chesscoders/echess@^2.9.0",
+    "echess": "npm:@chesscoders/echess@^2.9.1",
     "formik": "^2.2.0",
     "lodash": "^4.17.20",
     "next": "^12.3.4",
