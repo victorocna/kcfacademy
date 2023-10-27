@@ -2,6 +2,7 @@ import Confirm from './Confirm';
 import Footer from './Footer';
 import Forgot from './Forgot';
 import Header from './Header';
+import Jodit from './Jodit';
 import Layout from './Layout';
 import Lightbox from './Lightbox';
 import Login from './Login';
@@ -18,6 +19,7 @@ export {
   Footer,
   Forgot,
   Header,
+  Jodit,
   Layout,
   Lightbox,
   Login,

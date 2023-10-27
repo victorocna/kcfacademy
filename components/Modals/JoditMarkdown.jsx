@@ -1,9 +1,9 @@
 import { Modal } from 'react-bootstrap';
-import { JoditContent } from '../Forms';
 import { useFormikContext } from 'formik';
 import { useEffect, useState } from 'react';
 import { isNil } from 'lodash';
 import { Button } from 'echess/components';
+import JoditContent from '../Forms/JoditContent';
 
 const JoditMarkdown = ({ isOpen, hide, index, value: initialValue }) => {
   const { values, setFieldValue } = useFormikContext();
