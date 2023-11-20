@@ -1,5 +1,4 @@
-import { Menu, MenuButton } from 'echess/components';
-import React from 'react';
+import { Menu, MenuButton, Share, Feedback } from 'echess/components';
 import Header from './Header';
 
 const Layout = ({ children, role = 'admin' }) => {
@@ -8,6 +7,8 @@ const Layout = ({ children, role = 'admin' }) => {
       <header className="p-4 lg:px-8 bg-white text-bluemarin flex items-center shadow">
         <div className="max flex flex-wrap items-center">
           <Header />
+          <Share />
+          <Feedback />
           <MenuButton />
         </div>
       </header>

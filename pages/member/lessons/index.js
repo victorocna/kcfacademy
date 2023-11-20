@@ -12,8 +12,8 @@ const Page = () => {
       <div className="bg-white rounded-lg p-4 lg:px-8 border border-gray-400">
         <div className="flex flex-wrap items-center mb-2">
           <h2 className="font-bold text-xl w-full md:w-auto md:flex-1 mb-2">My lessons</h2>
-          <Tags setOptions={setOptions} />
-          <Sort setOptions={setOptions} />
+          <Tags id="my-tags-lessons" setOptions={setOptions} />
+          <Sort id="sort-my-lessons" setOptions={setOptions} />
         </div>
         <div className="my-4">
           <SearchFilter placeholder="Search by title" setOptions={setOptions} />
