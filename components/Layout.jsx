@@ -1,4 +1,5 @@
-import { Menu, MenuButton, Share, Feedback } from 'echess/components';
+import { Menu, MenuButton } from 'echess/components';
+import { Share, Feedback } from 'echess/components/Buttons';
 import Header from './Header';
 
 const Layout = ({ children, role = 'admin' }) => {
