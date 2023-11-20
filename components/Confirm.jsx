@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { ConfirmAccount } from 'echess/components/Identity';
+import { title } from '../site.config';
 
 const Confirm = ({ hash }) => (
   <div className="flex flex-col w-full p-4 md:p-8 md:rounded bg-white text-sm">
@@ -16,7 +17,7 @@ const Confirm = ({ hash }) => (
       }
       success={
         <p className="text-green-700 animated fadeIn">
-          Success! Your account on the <strong>ichessclub</strong> platform was confirmed.
+          Success! Your account on the <strong>{title}</strong> platform was confirmed.
         </p>
       }
     />
