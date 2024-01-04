@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 @import 'animate.css';
+@import 'aspect-ratio.css';
 @import 'bogdan.css';
 @import 'buttons.css';
 @import 'custom.css';
