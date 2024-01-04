@@ -1,6 +1,6 @@
 {
   "name": "kcfacademy",
-  "version": "1.8.1",
+  "version": "1.8.2",
   "description": "eChess implementation for kcfacademy",
   "private": true,
   "scripts": {
