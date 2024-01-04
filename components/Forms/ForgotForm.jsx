@@ -5,7 +5,7 @@ import { forgot } from 'echess/controllers/identity';
 import { forgot as forgotValues } from 'echess/models';
 import { Field, Form, Formik } from 'formik';
 import { useRef } from 'react';
-import { Debug, Email } from '../Fields';
+import { Email } from '../Fields';
 
 const ForgotForm = () => {
   const ref = useRef(null);
@@ -24,7 +24,6 @@ const ForgotForm = () => {
           <Translate>Recover password</Translate>
         </Submit>
         <Recaptcha ref={ref} />
-        <Debug />
       </Form>
     </Formik>
   );
