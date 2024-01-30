@@ -11,11 +11,11 @@ const Signup = () => (
     <SignupFormik />
     <div className="mt-4">
       <span>By signing up, you accept the</span>
-      <A className="mx-1 font-semibold" href="https://ichessclub.org/terms-conditions-2/">
+      <A className="mx-1 font-semibold" href="#">
         terms of service
       </A>
       <span>and</span>
-      <A className="mx-1 font-semibold" href="https://ichessclub.org/privacy-policy-2/">
+      <A className="mx-1 font-semibold" href="#">
         privacy policy
       </A>
     </div>

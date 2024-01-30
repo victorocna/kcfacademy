@@ -1,10 +1,10 @@
 {
-  "name": "ichessclub",
-  "short_name": "ichessclub",
-  "description": "ichessclub | Șah online",
+  "name": "KCF Academy",
+  "short_name": "KCF Academy",
+  "description": "KCF Academy",
   "icons": [],
   "theme_color": "#003296",
   "background_color": "#ffffff",
-  "start_url": "https://app.ichessclub.ro",
+  "start_url": "https://app.kcfacademy.org",
   "display": "standalone"
 }

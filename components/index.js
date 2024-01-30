@@ -10,7 +10,6 @@ import Maintenance from './Maintenance';
 import Reset from './Reset';
 import Signup from './Signup';
 import ThankYou from './ThankYou';
-import TopHeader from './TopHeader';
 
 export {
   Confirm,
@@ -25,5 +24,4 @@ export {
   Reset,
   Signup,
   ThankYou,
-  TopHeader,
 };

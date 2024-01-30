@@ -9,10 +9,6 @@ module.exports = {
   googleFonts: 'https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap',
   fontAwesome: 'https://use.fontawesome.com/releases/v5.6.3/css/all.css',
   bootstrap: 'https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css',
-  icons: [
-    { icon: 'fab fa-facebook', href: 'https://www.facebook.com/ichessclub.ro' },
-    { icon: 'fab fa-youtube', href: 'https://www.youtube.com/channel/UCSJILD26TcrMKGb7M3MEjZw' },
-  ],
   pages: [
     { role: 'admin', title: 'Dashboard', href: '/admin' },
     { role: 'admin', title: 'Teachers', href: '/admin/teachers' },
