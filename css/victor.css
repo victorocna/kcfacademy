@@ -180,6 +180,9 @@ button:disabled {
 .max-w-xxs {
   max-width: 11rem;
 }
+.min-w-3xs {
+  min-width: 9rem;
+}
 .max-w-3xs {
   max-width: 9rem;
 }
