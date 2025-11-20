@@ -29,6 +29,9 @@ The `@chesscoders/echess` package has the core components of this project.
 Integrate the changes in this project is a two step process:
 
 ```bash
+# load all variables from .env file
+set -a && source .env && set +a
+
 # update the package
 npm i @chesscoders/echess@latest
 
